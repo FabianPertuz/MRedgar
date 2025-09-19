@@ -1,5 +1,6 @@
 const _ = require('lodash');
 const chalk = require('chalk');
+const inquirer = require('inquirer');
 
 const validateNotEmpty = (input) => {
   if (_.trim(input).length === 0) {
