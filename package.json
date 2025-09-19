@@ -1,0 +1,15 @@
+{
+  "name": "task-manager-cli",
+  "version": "1.0.0",
+  "description": "CLI task manager with Lodash and file persistence",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "lodash": "^4.17.21",
+    "chalk": "^4.1.2",
+    "nanoid": "^3.3.4"
+  }
+}
