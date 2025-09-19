@@ -6,7 +6,7 @@ const {
   listTasks, 
   completeTask, 
   deleteTask 
-} = require('./controllers/tasksController');
+} = require('./controllers/taskscontrollers');
 
 const main = async () => {
   console.log(chalk.blue.bold('¡Bienvenido al Gestor de Tareas de Don Edgar!'));
