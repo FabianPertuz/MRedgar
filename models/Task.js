@@ -1,12 +1,10 @@
-const { nanoid } = require('nanoid');
 
-class Task {
-  constructor(description) {
-    this.id = nanoid();
-    this.description = description;
-    this.completed = false;
-    this.createdAt = new Date();
-  }
+function Task(description) {
+  return {
+    description,
+    completed: false,
+    createdAt: new Date()
+  };
 }
 
 module.exports = Task;
